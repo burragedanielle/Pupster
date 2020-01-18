@@ -1,5 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+import PupsterContainer from "./components/PortfolioContainer";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+function App() {
+    return <PupsterContainer />;
+}
+
+export default App;
